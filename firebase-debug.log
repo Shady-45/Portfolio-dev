@@ -42,3 +42,29 @@
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2022-10-07T11:14:14.568Z] ----------------------------------------------------------------------
+[debug] [2022-10-07T11:14:14.571Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions,hosting
+[debug] [2022-10-07T11:14:14.571Z] CLI Version:   7.0.0
+[debug] [2022-10-07T11:14:14.571Z] Platform:      win32
+[debug] [2022-10-07T11:14:14.571Z] Node Version:  v16.16.0
+[debug] [2022-10-07T11:14:14.575Z] Time:          Fri Oct 07 2022 16:44:14 GMT+0530 (India Standard Time)
+[debug] [2022-10-07T11:14:14.575Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-07T11:14:14.587Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-07T11:14:14.588Z] > authorizing via signed-in user
+[debug] [2022-10-07T11:14:14.588Z] [iam] checking project portfolio-dev-54a28 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-10-07T11:14:14.590Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-10-07T11:14:14.590Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-10-07T11:14:14.928Z] <<< HTTP RESPONSE 200
+[debug] [2022-10-07T11:14:14.934Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-dev-54a28:testIamPermissions  
+
+[debug] [2022-10-07T11:14:16.425Z] <<< HTTP RESPONSE 200
+[debug] [2022-10-07T11:14:16.426Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/portfolio-dev-54a28  
+ 
+[debug] [2022-10-07T11:14:16.967Z] <<< HTTP RESPONSE 200
+[debug] [2022-10-07T11:14:19.781Z] TypeError: Cannot read properties of undefined (reading 'wanted')
+    at C:\Users\rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\checkFirebaseSDKVersion.js:37:51
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: An unexpected error has occurred.

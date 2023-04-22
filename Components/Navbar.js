@@ -21,10 +21,10 @@ const Navbar = () => {
       router.asPath === "/Twitch"
     ) {
       setNavBg("transparent");
-      setLinkColor("#ecf0f3");
+      setLinkColor("#e4e4e7");
     } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
+      setNavBg("#27272a");
+      setLinkColor("#e4e4e7");
     }
   }, [router]);
 
@@ -87,7 +87,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "left-0 top-0 w-[75%]  md:w-[45%] sm:w-[60%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500  "
+              ? "left-0 top-0 w-[75%]  md:w-[45%] sm:w-[60%] h-screen bg-[#27272a] p-10 ease-in duration-500  "
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500  "
           }
         >
@@ -101,7 +101,7 @@ const Navbar = () => {
               />
               <div
                 onClick={toggleFunction}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg  p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
@@ -141,21 +141,21 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-30">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[#e4e4e7]">
                 Let's Connect
               </p>
               <div className="flex items-center justify-between mt-4  w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-x-105 hover:ease-inhover:duration-300">
+                <div className="rounded-full shadow-lg  p-4 cursor-pointer hover:scale-x-105 hover:ease-inhover:duration-300">
                   <a href="https://www.linkedin.com/in/rahul-chalat-784857193/">
                     <FaLinkedin />
                   </a>
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-x-105 hover:ease-in hover:duration-300">
+                <div className="rounded-full shadow-lg  p-4 cursor-pointer hover:scale-x-105 hover:ease-in hover:duration-300">
                   <a href="https://github.com/Shady-45">
                     <FaGithub />
                   </a>
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-x-105 hover:ease-in hover:duration-300">
+                <div className="rounded-full shadow-lg  p-4 cursor-pointer hover:scale-x-105 hover:ease-in hover:duration-300">
                   <a href="mailto:rahulchalat@gmail.com">
                     <AiOutlineMail />
                   </a>

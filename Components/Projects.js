@@ -3,7 +3,7 @@ import Link from "next/link";
 import ConnectImg from "../public/assets/projects/connect-4.png";
 import CryptoImg from "../public/assets/projects/crypto.png";
 import DisneyImg from "../public/assets/projects/disney.png";
-import TwitchImg from "../public/assets/projects/taskit.png";
+import IndieCrypt from "../public/assets/projects/IndieCrypt.png";
 import React from "react";
 
 import ProjectItem from "./ProjectItem";
@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div id="project" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl uppercase tracking-widest text-[#5651e5]">
+        <p className="text-xl uppercase tracking-widest text-[#e4e4e7]">
           Projects
         </p>
         <h2 className="py-4">What I've Built</h2>
@@ -36,9 +36,9 @@ const Projects = () => {
             Tech="React JS"
           />
           <ProjectItem
-            title="Taskit"
-            backgroundImg={TwitchImg}
-            ProjectUrl="/Taskit"
+            title="IndieCrypt"
+            backgroundImg={IndieCrypt}
+            ProjectUrl="/IndieCrypt"
             Tech="React JS"
           />
         </div>

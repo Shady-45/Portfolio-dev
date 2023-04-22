@@ -1,10 +1,10 @@
 import React from "react";
-import TaskitImg from "../public/assets/projects/taskit.png";
+import IndieImg from "../public/assets/projects/IndieCrypt.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Image from "next/image";
 
-const Taskit = () => {
+const IndieCrypt = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const Taskit = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={TaskitImg}
+          src={IndieImg}
           alt="image"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Taskit</h2>
-          <h3>React JS / TypeScript</h3>
+          <h2 className="py-2">IndieCrypt</h2>
+          <h3>React JS| CSS| Node JS| MySQL| Meta Mask</h3>
         </div>
       </div>
 
@@ -27,39 +27,38 @@ const Taskit = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            React JS and TypeScript were used to construct this app, which is
-            hosted on Netlify. Users can set tasks, change tasks, and cancel
-            tasks after completion in this straightforward to-do list
-            application.
+            The goal of the project, called Indiecrypt, is to allow users to
+            upload, update, and delete music, scripts, and graphic images. Other
+            users can purchase these assets with the aid of Metamask, a
+            straightforward cryptocurrency wallet, and after doing so, they can
+            download them. My partner worked on the project's back end, while I
+            was in charge of the front end of the website and the project's API
+            queries. Digital Ocean is used for hosting.
           </p>
           <a
-            href="https://github.com/Shady-45/Todo-TypeScript"
+            href="https://github.com/Shady-45/cfp"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a
-            href="https://magnificent-halva-f80cec.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://indiecrypt.site/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
+        <div className="col-span-4 md:col-span-1 shadow-xl  rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="text-[#e4e4e7] py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React JS
               </p>
 
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> TypeScript
+              <p className="text-[#e4e4e7] py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> MySQL
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Netlify
+              <p className="text-[#e4e4e7] py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Digital Ocean
               </p>
             </div>
           </div>
@@ -72,4 +71,4 @@ const Taskit = () => {
   );
 };
 
-export default Taskit;
+export default IndieCrypt;
