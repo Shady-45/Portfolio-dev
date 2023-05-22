@@ -93,12 +93,7 @@ const Navbar = () => {
         >
           <div>
             <div className=" flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/c-removebg-preview.png"
-                width={125}
-                height={120}
-                alt="image"
-              />
+              <Image src={ProfileImg} width={125} height={120} alt="image" />
               <div
                 onClick={toggleFunction}
                 className="rounded-full shadow-lg  p-3 cursor-pointer"
