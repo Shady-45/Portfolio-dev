@@ -40,13 +40,13 @@ const IndieCrypt = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className=" shadow-none px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a href="https://indiecrypt.site/" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button className=" shadow-none px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl  rounded-xl py-4">
+        <div className="col-span-4 md:col-span-1   rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
@@ -56,6 +56,9 @@ const IndieCrypt = () => {
 
               <p className="text-[#e4e4e7] py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> MySQL
+              </p>
+              <p className="text-[#e4e4e7] py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Meta Mask
               </p>
               <p className="text-[#e4e4e7] py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Digital Ocean

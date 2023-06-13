@@ -38,17 +38,17 @@ const Disney = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className=" shadow-none px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
             href="https://visionary-pie-353367.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button className=" shadow-none px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl  rounded-xl py-4">
+        <div className="col-span-4 md:col-span-1   rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
